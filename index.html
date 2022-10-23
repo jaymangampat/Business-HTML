@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+			<title>24K Clothing Co.</title>
+			<link rel="icon" href="Images/24k logo.ico" type="image/icon type">
+			<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		</head>
+		<body id="home">
+			 <table class="topnav" width="100%">
+				<td align="center">
+					<img src="Images/headerlogo.jpg"/> 
+				</td>
+				<td>
+					<th>
+						<a href="#home"><img src="Images/headerhome.png"/></a> 
+						<a href="#shop"><img src="Images/headershop.png"/></a>
+						<a href="#products"><img src="Images/headerproducts.png"/></a>
+						<a href="#about"><img src="Images/headerabout.png"/></a>
+					</th>
+					<th>
+						<a class="cart" href="#cart"><span class="badge">0</span><img align="center" src="Images/headercart.png"/></a>
+					</th>
+					<th>
+						<img src="Images/div.png"/>
+					</th>
+					<th>
+						<input type="text" placeholder="Search...">
+					</th>
+					<th>
+						<img src="Images/searchbar.png"/>
+					</th>
+				</td>   
+			</table> 
+			<br><br><br><br>
+			
+			<div class="container">
+				<img class="header" src="Images/pic1.jpg" style="width:100%"/>
+				<img class="header" src="Images/pic2.jpg" style="width:100%"/>
+				<img class="header" src="Images/pic3.jpg" style="width:100%"/>
+				<img class="header" src="Images/pic5.jpg" style="width:100%"/>
+				<img class="header" src="Images/pic9.jpg" style="width:100%"/>	
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!--eto yung left arrow-->
+				<a class="next" onclick="plusSlides(1)">&#10095;</a><!--eto yung right arrow-->
+			</div>
+			<br><br>
+			<img id="shop" class="pshops" src="Images/POPULAR SHOPS.png" style="width:20%"/>
+			<br><br>
+			
+			<div class="shop" width="100%" align="center">
+				<a href="#bench"><img class="brand" src="Images/bench.jpg" style="width:20%"/></a>
+				<a href="#forever21"><img class="brand" src="Images/forever21.jpg" style="width:20%"/></a>
+				<a href="#handm"><img class="brand" src="Images/h&m.jpg" style="width:20%"/></a>
+				<br>
+				<a href="#nike"><img class="brand" src="Images/nike.jpg" style="width:20%"/></a>
+				<a href="#penshoppe"><img class="brand" src="Images/penshoppe.jpg" style="width:20%"/></a>
+				<a href="#oxygen"><img class="brand" src="Images/oxygen.jpg" style="width:20%"/></a>
+				<br>
+				<a href="#uniqlo"><img class="brand" src="Images/uniqlo.jpg" style="width:20%"/></a>
+				<a href="#adidas"><img class="brand" src="Images/adidas.jpg" style="width:20%"/></a>
+				<a href="#jordan"><img class="brand" src="Images/jordan.jpg" style="width:20%"/></a>
+			</div>
+			<br><br>
+			<img id="products" class="product" src="Images/PRODUCTS.png" style="width:20%"/>
+			<br><br>
+			<div class="row" class="item">
+				<div class="column" style="background-color:white;">
+					<a href="#bag"><img src="Images/bag.jpg" style="width:100%"/></a>
+					<h3>FOREVER 21 Quilted Bag</h3>
+					<p>PHP 2,499.95</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+				<div  class="column" style="background-color:white;">
+					<a href="#shoes"><img src="Images/shoes.jpg" style="width:100%"/></a>
+					<h3>ADIDAS Running Shoes</h3>
+					<p>PHP 4,999.95</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+				<div  class="column" style="background-color:white;">
+					<a href="#hoodie"><img src="Images/hoodie.jpg" style="width:100%"/></a>
+					<h3>PENSHOPPE Basic Hoodie</h3>
+					<p>PHP 899.99</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+				<div class="column" style="background-color:white;">
+					<a href="#shirt"><img src="Images/shirt.jpg" style="width:100%"/></a>
+					<h4>MEN Uniqlo U Oversized Crew Neck<br> Striped Short Sleeve T-Shirt</h4>
+					<p>PHP 719.99</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+			</div>
+			<br>
+			<div class="row" class="item">
+				<div class="column" style="background-color:white;">
+					<a href="#jpants"><img src="Images/jpants.jpg" style="width:100%"/></a>
+					<h3>BENCH Urbanwear Sporty <br> Jogger Pants</h3>
+					<p>PHP 1,099.99</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+				<div class="column" style="background-color:white;">
+					<a href="#headbands"><img src="Images/headbands.jpg" style="width:100%"/></a>
+					<h3>NIKE accessories <br> Printed Headbands Pack of 6 Units</h3>
+					<p>PHP 699.95</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+				<div class="column" style="background-color:white;">
+					<a href="#hat"><img src="Images/hat.jpg" style="width:100%"/></a>
+					<h4>OXYGEN Premium Threads Bucket Hat<br> With OXGN Tonal Print</h4>
+					<p>PHP 349.99</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+				<div class="column" style="background-color:white;">
+					<a href="#glasses"><img src="Images/glasses.jpg" style="width:100%"/></a>
+					<h4>H&M Glasses</h4>
+					<p>PHP 499.99</p>
+					<img class="heart" src="Images/heart.png" style="width:7%"/>
+				</div>
+			</div>
+			<br>
+			<div class="center"> <!--page button -->
+				<div class="pagination">
+					<a href="#prev">&laquo;</a>
+					<a href="#products" class="active" target="_self">1</a>
+					<a href="#2">2</a>
+					<a href="#3">3</a>
+					<a href="#4">4</a>
+					<a href="#5">5</a>
+					<a href="#6">6</a>
+					<a href="#next">&raquo;</a>
+				</div>
+			</div>
+			<br><br><br>
+			<div id="about">
+				<div class="about">
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<img src="Images/headerlogo.png" style="width:auto;height:55px"/>
+				</div>
+				<div class="about">
+				<br><br><br>
+					<h3>CUSTOMER SERVICE</h3><br>
+					<a href="#about"><p>About Us</p></a><a href="#Store"><p>Find a store</p></a><a href="#account"><p>My Account</p></a>
+					<a href="#career"><p>Career</p></a><a href="#contact"><p>Contact Us</p></a>
+				</div>
+				<div class="about">
+				<br><br><br>
+					<h3>HELP</h3><br>
+					<a href="#Returns"><p>Returns</p></a><a href="#Shipping"><p>Shipping</p></a>
+					<a href="#FAQ"><p>FAQ</p></a><a href="#Legal"><p>Legal & Privacy</p></a><a href="#orders"><p>Track Orders</p></a>
+				</div>
+				<div class="smedia" >
+				<br><br><br>
+					<h3>FOLLOW US</h3>
+					<a href="https://www.facebook.com/" target="blank" class="fa fa-facebook"><p>Facebook</p></a>
+					<a href="https://twitter.com/?lang=en" target="blank" class="fa fa-twitter"><p>Twitter</p></a>
+					<a href="https://www.instagram.com" target="blank" class="fa fa-instagram"><p>Instagram</p></a>
+					<a href="https://www.youtube.com/" target="blank" class="fa fa-youtube"><p>Youtube</p></a>
+					<a href="https://www.pinterest.at/" target="blank" class="fa fa-pinterest"><p>Pinterest</p></a>
+				</div>
+				<div class="newsl">
+					<br><br><br>
+					<h3>NEWSLETTER</h3>
+					<p>Subscribe now to get daily updates.</p><input style="height:45px; width:305px" type="text" placeholder="Your email address"></a>
+					<button class="sub">SUBSCRIBE</button>
+					<p>Don't worry we don't spam.</p>
+				</div>
+			</div>
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("header");
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 3000); // Change image every 3	 seconds
+				}
+			 <!--arrow button-->
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+					showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+					showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+					var i;
+					var slides = document.getElementsByClassName("header");
+					var dots = document.getElementsByClassName("dot");
+					if (n > slides.length) {slideIndex = 1}    
+					if (n < 1) {slideIndex = slides.length}
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";  
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";  
+				dots[slideIndex-1].className += " active";
+				}
+			</script>		
+		</body>
+	</html>
